@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="task1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header id="container">
+    <nav class="navbar navbar-expand-lg  navbar-fixed-top navbar-light">
+      <div class="container">
+        <img src="https://th.bing.com/th/id/OIP.0Rzph6PtyHRRTHXuLXBZagAAAA?pid=ImgDet&w=168&h=177&c=7" width="100"
+          height="100">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="  navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active ms-5  text-light " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light ms-2" href="#festival">Festivals</a>
+            </li>
+            <div class="dropdown">
+              <a class="dropdown-item dropdown-toggle text-light mt-2 ms-2" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                packages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#adventure">ADVENTUROUS</a></li>
+                <li><a class="dropdown-item" href="#honeymoon">HONEYMOON PACKAGES</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link active text-light ms-2" href="#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light ms-2" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-6"></div>
+      <div class="col-6">
+        <h1>Live Life With No Excuse</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6"></div>
+      <div class="col-6">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-success mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Enquiry
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+            <d class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title fs-4 " id="exampleModalLabel">Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <label for="name">Name</label><br>
+                <input type="text" id="name"><br>
+                <label for="place">Place</label><br>
+                <input type="text" id="place"><br>
+                <label for="phone">Contact</label><br>
+                <input type="text" id="phone">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <hr>
+  <div id="festival">
+  <h3 class="text-center p-4">INDIAN FESTIVALS</h3>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active p-5"  data-bs-interval="1000">
+      <div class="d-flex justify-content-center">
+        <img height="500" src="https://www.pujashoppe.com/blog/wp-content/uploads/2020/05/Indian-Festivals.jpg" class="d-block w-75 img-thumbnail" alt="img 1">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="d-flex justify-content-center">
+        <img height="500" src="https://www.holidify.com/images/cmsuploads/compressed/A_Camel_Pushkar_fair_20200123143500.jpg" class="d-block w-75 img-thumbnail" alt="img 1">
+      </div>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="d-flex justify-content-center">
+        <img height="500" src="https://i1.wp.com/www.mysticindiatour.com/wp-content/uploads/2013/11/Phulaich-Festival.jpg?fit=800%2C600&ssl=1" class="d-block w-75 img-thumbnail" alt="img 1">
+      </div>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item active" data-bs-interval="1000">
+        <div class="d-flex justify-content-center">
+        <img height="500"  src="https://2.bp.blogspot.com/-qF68cvT62YY/V_c3TW9B7iI/AAAAAAAAAMs/Ro2CFe1j5os3xWRGz3gZMhgvussoqjoAACLcB/w1200-h630-p-k-no-nu/4.jpg" class="d-block w-75 img-thumbnail" alt="img 1">
+      </div>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <hr>
+  <div class="row" id="adventure">
+    <h3 class="text-center p-4">ADVENTUROUS</h3>
+    <div class="col-lg ms-5 text-center">
+      <div class="card" style="width:15rem; height: 17rem;">
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/03/Surfing.jpg"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title text-warning">SURFING</h4>
+          <a href="" class="text-success fw-bolder">More Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg ms-5 text-center">
+      <div class="card" style="width:15rem; height: 17rem;">
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/01/Chadar-Trek-in-Ladakhepb0310.jpg"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title text-warning">CHADAR-TREK-LADAKH</h4>
+          <a href="" class="text-success fw-bolder">More Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg ms-5 text-center">
+      <div class="card" style="width:15rem;height: 17rem;">
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/04/Flyboarding_5-1.jpg"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title text-warning ">FLY BOARDING</h4>
+          <a href="" class="text-success fw-bolder">More Info</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg ms-5 text-center">
+      <div class="card" style="width:15rem;height: 17rem;">
+        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/01/Jungle-kayaking.jpg"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title text-warning ">KAYAKING</h4>
+          <a href="" class="text-success fw-bolder">More Info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row" id="honeymoon">
+    <h3 class="text-center p-4">HONEYMOON PACKAGES</h3><br>
+    <div class="col-lg text-center ms-4">
+      <div class="card" style="width: 18rem;  height: 30.5rem;">
+        <img src="https://th.bing.com/th?id=OIP.E6BAsjjUlcEGtISIo7YlhQHaEO&w=330&h=188&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title  text-center">Kerala Honeymoon Packages</h4>
+          <h6 class=" fw-bolder text-center">(4 Nights/5 Days)</h6>
+          <p class="card-text" style="text-align: justify;">The landscape in Kerala consists of coastline, hills, and of
+            course the backwaters, With this variation of landscape honeymooners get many options for their romantic
+            escape.</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg text-center ms-4">
+      <div class="card" style="width: 18rem; height: 30.5rem;">
+        <img
+          src="https://images.thrillophilia.com/image/upload/s--0DtcNF0B--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/306/715/original/1591800385_237215005_(1).jpg.jpg?1591800385"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title  text-center">Maldives Honeymoon Packages</h4>
+          <h6 class=" fw-bolder text-center">(5 Nights/6 Days)</h6>
+          <p class="card-text" style="text-align: justify;">The beautiful white sandy beaches and an luxurious sea side
+            resorts make it a one-stop destination for honeymooners from around the world.</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg text-center ms-4">
+      <div class="card" style="width: 18rem; height: 30.5rem;">
+        <img
+          src="https://images.thrillophilia.com/image/upload/s--N723BgIx--/c_fill,f_auto,fl_strip_profile,g_center,h_450,q_auto,w_752/v1/images/photos/000/039/887/original/Divar_island.jpg.jpg"
+          class="card-img-top img-fluid" alt="no img">
+        <div class="card-body">
+          <h4 class="card-title  text-center">Goa Honeymoon Packages</h4>
+          <h6 class=" fw-bolder text-center">(5 Nights/6 Days)</h6>
+          <p class="card-text" style="text-align: justify;">Goa is a state which is gifted with incredible natural
+            beauty. Natural Beauty of Goa includes waterfalls, green forest, fabulous beaches and sunshine.</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg text-center ms-4">
+      <div class="card" style="width:18rem; height: 30.5rem;">
+        <img src="https://stylesatlife.com/wp-content/uploads/2018/01/kullu-manali.jpg" class="card-img-top img-fluid"
+          alt="no img">
+        <div class="card-body">
+          <h4 class="card-title text-center">kullu-Manali Honeymoon Packages</h4>
+          <h6 class=" fw-bolder text-center">(6 Nights/7 Days)</h6>
+          <p class="card-text" style="text-align: justify;">Manali is all about an open valley with a deodar and pine
+            forest cover,fresh water and peaks perennially covered with snow making it a perfect place.</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div id="review">
+    <h3 class="text-center p-4">CUSTOMER REVIEWS</h3><br>
+    <div class="row">
+      <div class="col-lg text-center ms-5 ">
+        <div class="card" style="width:15rem; height: 19rem;">
+          <img  width="200" height="150" src="https://th.bing.com/th?id=OIP.LCn50tSm4wBDbTj4vDIrgwHaLI&w=203&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+            class="card-img-top" alt="no img">
+          <div class="card-body">
+            <h6>ANNA & JOHN</h6>
+            <h6 class="card-title text-dark">For affordable prices Wide variety of travel options</h6>
+            <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg  text-center ms-5 ">
+        <div class="card" style="width:15rem; height: 19rem;">
+          <img  width="200" height="150" src="https://th.bing.com/th/id/OIP.roNt8wsqj6yHHUzEiweJ1wHaLI?w=115&h=180&c=7&r=0&o=5&pid=1.7"
+            class="card-img-top" alt="no img">
+          <div class="card-body">
+            <h6>MARIA & ALEX</h6>
+            <h6 class="card-title text-dark">Excellent customer service and feeled very well</h6>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg text-center ms-5">
+        <div class="card" style="width:15rem; height: 19rem;">
+          <img  width="200" height="150" src="https://th.bing.com/th/id/OIP.b0FnWMGm9TLUUkTXGIY_vQHaHa?w=186&h=186&c=7&r=0&o=5&pid=1.7"
+            class="card-img-top" alt="no img">
+          <div class="card-body">
+            <h6>ARYA & ALAN</h6>
+            <h6 class="card-title text-dark">Thank you so much for a beautiful moments</h6>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <h3 class="text-center me-auto">CONTACT US</h3><br>
+  <div id="contact" class="bg-dark text-light p-5">
+    
+     <div class="iconDiv ">
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/adithya-babu-758b89256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqDcoIuchQvSNQTrvqflk%2BQ%3D%3D"> <i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="icon">
+       <a href="https://github.com/Adithyababu"> <i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="icon">
+        <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <div class="icon">
+       <a href="https://www.instagram.com/adithya.adhiii/?hl=en"> <i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://www.facebook.com/adithya.babu.33" ><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+    <footer>
+    <p> &copy Travelsite 2023,All Rights Reserved</p>
+    <div class="up-arrow bg-dark p-1">
+      <a href="#container"><i class="fa-sharp fa-solid fa-arrow-up 3x"></i></a>
+    </div>
+  </footer>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</html>
